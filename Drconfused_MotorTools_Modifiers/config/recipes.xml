@@ -8,18 +8,46 @@
 		<ingredient name="smallEngine" count="1"/>
 		<ingredient name="resourceElectricParts" count="5"/>
 		<ingredient name="resourceScrapPolymers" count="4"/>
-		<ingredient name="resourceForgedIron" count="2"/>		
+		<ingredient name="resourceForgedSteel" count="2"/>		
+	</recipe>
+
+	<recipe name="modEngineTurbo2" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modEngineTurbo2Schematic" count="1"/> -->
+		<ingredient name="smallEngine" count="2"/>
+		<ingredient name="resourceElectricParts" count="10"/>
+		<ingredient name="resourceScrapPolymers" count="6"/>
+		<ingredient name="resourceForgedSteel" count="5"/>		
 	</recipe>
 	
+	<recipe name="modEngineTurbo3" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modEngineTurbo3Schematic" count="1"/> -->
+		<ingredient name="smallEngine" count="3"/>
+		<ingredient name="resourceElectricParts" count="15"/>
+		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceForgedSteel" count="10"/>		
+	</recipe>
 	
 <!-- Gas Tank -->
 	<recipe name="modGasTank1" counts="1" craft_area="workbench">
 		<!-- <ingredient name="modGasTank1Schematic" count="1"/> -->
 		<ingredient name="resourceMetalPipe" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="2"/>
-		<ingredient name="resourceForgedIron" count="2"/>
+		<ingredient name="resourceForgedSteel" count="2"/>
 	</recipe>	
-	
+
+	<recipe name="modGasTank2" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modGasTank1Schematic" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceForgedSteel" count="4"/>
+	</recipe>	
+
+	<recipe name="modGasTank3" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modGasTank1Schematic" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="8"/>
+		<ingredient name="resourceScrapPolymers" count="8"/>
+		<ingredient name="resourceForgedSteel" count="8"/>
+	</recipe>		
 	
 <!-- Barrel Extension -->
 
@@ -27,10 +55,50 @@
 		<!-- <ingredient name="modMotorToolExtension1Schematic" count="1"/> -->
 		<ingredient name="resourceMetalPipe" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="2"/>
-		<ingredient name="resourceForgedIron" count="2"/>
+		<ingredient name="resourceForgedSteel" count="2"/>
 		<ingredient name="resourceMechanicalParts" count="2"/>
 	</recipe>	
+
+	<recipe name="modMotorToolExtension2" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modMotorToolExtension1Schematic" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="4"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceForgedSteel" count="4"/>
+		<ingredient name="resourceMechanicalParts" count="4"/>
+	</recipe>	
+
+	<recipe name="modMotorToolExtension3" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modMotorToolExtension1Schematic" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="8"/>
+		<ingredient name="resourceScrapPolymers" count="8"/>
+		<ingredient name="resourceForgedSteel" count="8"/>
+		<ingredient name="resourceMechanicalParts" count="8"/>
+	</recipe>	
 	
+<!--	modDiamondTip1	-->
+	<recipe name="modDiamondTip1" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modMotorToolExtension1Schematic" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="2"/>
+		<ingredient name="resourceRawDiamond" count="1"/>
+		<ingredient name="resourceForgedSteel" count="2"/>
+		<ingredient name="resourceMechanicalParts" count="2"/>
+	</recipe>
+	
+	<recipe name="modDiamondTip2" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modMotorToolExtension1Schematic" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="4"/>
+		<ingredient name="resourceRawDiamond" count="4"/>
+		<ingredient name="resourceForgedSteel" count="4"/>
+		<ingredient name="resourceMechanicalParts" count="4"/>
+	</recipe>	
+
+	<recipe name="modDiamondTip3" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modMotorToolExtension1Schematic" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="8"/>
+		<ingredient name="resourceRawDiamond" count="8"/>
+		<ingredient name="resourceForgedSteel" count="8"/>
+		<ingredient name="resourceMechanicalParts" count="8"/>
+	</recipe>	
 </append>
 
 </config>
