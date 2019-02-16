@@ -1,0 +1,36 @@
+<config>
+<!-- Adding attachments to the auger and chainsaw as motortools -->
+
+<append xpath="/recipes">
+<!-- Turbo Engine -->
+	<recipe name="modEngineTurbo1" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modEngineTurbo1Schematic" count="1"/> -->
+		<ingredient name="smallEngine" count="1"/>
+		<ingredient name="resourceElectricParts" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceForgedIron" count="2"/>		
+	</recipe>
+	
+	
+<!-- Gas Tank -->
+	<recipe name="modGasTank1" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modGasTank1Schematic" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="2"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+		<ingredient name="resourceForgedIron" count="2"/>
+	</recipe>	
+	
+	
+<!-- Barrel Extension -->
+
+	<recipe name="modMotorToolExtension1" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modMotorToolExtension1Schematic" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="2"/>
+		<ingredient name="resourceScrapPolymers" count="2"/>
+		<ingredient name="resourceForgedIron" count="2"/>
+		<ingredient name="resourceMechanicalParts" count="2"/>
+	</recipe>	
+	
+</append>
+
+</config>

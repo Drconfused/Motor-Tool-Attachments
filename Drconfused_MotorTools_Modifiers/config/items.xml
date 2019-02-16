@@ -1,0 +1,33 @@
+<config>
+<!-- Adding attachments to the auger and chainsaw as motorTools -->
+
+<!-- Need to add new tag to chainsaw and auger possibly to impact wrench and nail gun -->
+
+<append xpath="/items/item[@name='meleeToolAuger']/property[@name='Tags']/@value">,motorTools1,gasTank1,motorToolReach</append>
+
+<append xpath="/items/item[@name='meleeToolChainsaw']/property[@name='Tags']/@value">,motorTools1,gasTank1,motorToolReach</append>
+
+	
+<!-- Auger and Chainsaw schematics and attachments -->
+
+<append xpath="/items">
+	<item name="modEngineTurbo1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+
+
+	<item name="modGasTank1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	
+	<item name="modMotorToolExtension1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+	
+	
+</append>		
+
+</config>
