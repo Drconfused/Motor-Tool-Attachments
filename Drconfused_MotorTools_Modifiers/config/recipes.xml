@@ -2,7 +2,7 @@
 <!-- Adding attachments to the auger and chainsaw as motortools -->
 
 <append xpath="/recipes">
-<!-- Turbo Engine -->
+<!-- TURBO ENGINE -->
 	<recipe name="modEngineTurbo1" counts="1" craft_area="workbench">
 		<!-- <ingredient name="modEngineTurbo1Schematic" count="1"/> -->
 		<ingredient name="smallEngine" count="1"/>
@@ -27,7 +27,7 @@
 		<ingredient name="resourceForgedSteel" count="10"/>		
 	</recipe>
 	
-<!-- Gas Tank -->
+<!-- GAS TANK -->
 	<recipe name="modGasTank1" counts="1" craft_area="workbench">
 		<!-- <ingredient name="modGasTank1Schematic" count="1"/> -->
 		<ingredient name="resourceMetalPipe" count="2"/>
@@ -49,7 +49,7 @@
 		<ingredient name="resourceForgedSteel" count="8"/>
 	</recipe>		
 	
-<!-- Barrel Extension -->
+<!-- BARREL EXTENSION -->
 
 	<recipe name="modMotorToolExtension1" counts="1" craft_area="workbench">
 		<!-- <ingredient name="modMotorToolExtension1Schematic" count="1"/> -->
@@ -75,7 +75,7 @@
 		<ingredient name="resourceMechanicalParts" count="8"/>
 	</recipe>	
 	
-<!--	modDiamondTip1	-->
+<!--	DIAMOND TIP FOR AUGER	-->
 	<recipe name="modDiamondTip1" counts="1" craft_area="workbench">
 		<!-- <ingredient name="modMotorToolExtension1Schematic" count="1"/> -->
 		<ingredient name="resourceMetalPipe" count="2"/>
@@ -98,7 +98,39 @@
 		<ingredient name="resourceRawDiamond" count="8"/>
 		<ingredient name="resourceForgedSteel" count="8"/>
 		<ingredient name="resourceMechanicalParts" count="8"/>
+	</recipe>
+
+<!-- 	BETTER HANDLES 	-->
+
+<!-- removing 2 entries to the better handles till I know better how it works and if there is a need for a series 
+	<recipe name="modBetterHandles1" counts="1" craft_area="workbench">
+		<ingredient name="modBetterHandles1" count="1"/>
+		<ingredient name="resourceMetalPipe" count="2"/>
+		<ingredient name="resourceForgedSteel" count="2"/>
+		<ingredient name="resourceMechanicalParts" count="2"/>
+		<ingredient name="resourceSpring" count="2"/>
+	</recipe>
+	
+	<recipe name="modBetterHandles2" counts="1" craft_area="workbench">
+		<ingredient name="modBetterHandles2" count="1"/>
+		<ingredient name="resourceMetalPipe" count="4"/>
+		<ingredient name="resourceForgedSteel" count="4"/>
+		<ingredient name="resourceMechanicalParts" count="4"/>
+		<ingredient name="resourceSpring" count="4"/>
+	</recipe>
+-->
+	<recipe name="modBetterHandles" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modBetterHandles3" count="1"/> -->
+		<ingredient name="resourceMetalPipe" count="8"/>
+		<ingredient name="resourceForgedSteel" count="8"/>
+		<ingredient name="resourceMechanicalParts" count="8"/>
+		<ingredient name="resourceSpring" count="8"/>
 	</recipe>	
+
+
+<!-- 	:)	-->
+
+
 </append>
 
 </config>
