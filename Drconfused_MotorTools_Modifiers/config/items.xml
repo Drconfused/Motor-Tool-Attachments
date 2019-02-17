@@ -75,6 +75,23 @@
 		<property name="EconomicValue" value="500"/>
 	</item>	
 
+<!-- BETTER HANDLES -->
+
+<!-- removing 2 entries till I know its worth having them in 
+	<item name="modBetterHandles1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+	
+	<item name="modBetterHandles2Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+-->
+	<item name="modBetterHandlesSchematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
 	
 </append>		
 
