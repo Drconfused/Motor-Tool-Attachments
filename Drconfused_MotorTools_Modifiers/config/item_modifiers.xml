@@ -61,7 +61,7 @@
 	
 <!-- BARREL EXTENDER -->
 	<item_modifier name="modMotorToolExtension1" installable_tags="motorToolReach" modifier_tags="shaft" type="attachment" rarity="0.5">
-		<property name="CustomIcon" value="partsAuger_blade"/>
+		<property name="CustomIcon" value="DrsAugerBlade1"/>
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
 			<passive_effect name="MaxRange" operation="perc_add" value=".1"/>
@@ -71,7 +71,7 @@
 	</item_modifier>
 
 	<item_modifier name="modMotorToolExtension2" installable_tags="motorToolReach" modifier_tags="shaft" type="attachment" rarity="0.5">
-		<property name="CustomIcon" value="partsAuger_blade"/>
+		<property name="CustomIcon" value="DrsAugerBlade1"/>
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
 			<passive_effect name="MaxRange" operation="perc_add" value=".25"/>
@@ -81,7 +81,7 @@
 	</item_modifier>
 
 	<item_modifier name="modMotorToolExtension3" installable_tags="motorToolReach" modifier_tags="shaft" type="attachment" rarity="0.5">
-		<property name="CustomIcon" value="partsAuger_blade"/>
+		<property name="CustomIcon" value="DrsAugerBlade1"/>
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
 			<passive_effect name="MaxRange" operation="perc_add" value=".5"/>
@@ -92,7 +92,7 @@
 
 <!-- DIAMOND TIP increases damage AUGER -->
 	<item_modifier name="modDiamondTip1" installable_tags="diamondBlade1" modifier_tags="shaft" type="attachment" rarity="0.5">
-		<property name="CustomIcon" value="PLACEHOLDER"/>
+		<property name="CustomIcon" value="DrsAugerBlade1"/>
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
 				<!-- <passive_effect name="EntityDamage" operation="perc_add" value="3.5"/> -->
@@ -104,7 +104,7 @@
 	</item_modifier>	
 
 	<item_modifier name="modDiamondTip2" installable_tags="diamondBlade1" modifier_tags="shaft" type="attachment" rarity="0.5">
-		<property name="CustomIcon" value="PLACEHOLDER"/>
+		<property name="CustomIcon" value="DrsAugerBlade1"/>
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
 				<!-- <passive_effect name="EntityDamage" operation="perc_add" value="3.5"/> -->
@@ -116,7 +116,7 @@
 	</item_modifier>	
 	
 	<item_modifier name="modDiamondTip3" installable_tags="diamondBlade1" modifier_tags="shaft" type="attachment" rarity="0.5">
-		<property name="CustomIcon" value="PLACEHOLDER"/>
+		<property name="CustomIcon" value="DrsAugerBlade1"/>
 		<property name="Stacknumber" value="1"/>
 		<effect_group tiered="false">
 				<!-- <passive_effect name="EntityDamage" operation="perc_add" value="3.5"/> -->
@@ -126,32 +126,60 @@
 		</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>	
-	
-		<!--	
-				<passive_effect name="EntityDamage" operation="base_set" value="3.5"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="22"/>
-				
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>	
-				<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
-				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>			
-		-->		
-		
-<!-- WIDER AUGER -->
-		<!--	
-			<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0.5"/>
-			<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0.5"/>	
-		-->
-			
 
 <!-- BETTER HANDLES (Makes the handling better) -->
 
-		<!--
+<!-- removing 2 of the versions till I understand the kickback better or notice if there is need to have a series 
+
+	<item_modifier name="modBetterHandles1" installable_tags="motorTools1" modifier_tags="grips" type="attachment" rarity="0.5">
+		<property name="CustomIcon" value="partsHandlebars"/>
+		<property name="Stacknumber" value="1"/>
+		<effect_group tiered="false">
+			<passive_effect name="KickDegreesVertical" operation="perc_add" value=".1"/>
+			<passive_effect name="KickDegreesHorizontal" operation="perc_add" value=".1"/>
+			<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".1"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".1"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+
+	<item_modifier name="modBetterHandles2" installable_tags="motorTools1" modifier_tags="grips" type="attachment" rarity="0.5">
+		<property name="CustomIcon" value="partsHandlebars"/>
+		<property name="Stacknumber" value="1"/>
+		<effect_group tiered="false">
+			<passive_effect name="KickDegreesVertical" operation="perc_add" value=".25"/>
+			<passive_effect name="KickDegreesHorizontal" operation="perc_add" value=".25"/>
+			<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".25"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".25"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>	
+-->
+	<item_modifier name="modBetterHandles" installable_tags="motorTools1" modifier_tags="grips" type="attachment" rarity="0.5">
+		<property name="CustomIcon" value="vehicleBicycleHandlebars"/>
+		<property name="Stacknumber" value="1"/>
+		<effect_group tiered="false">
+			<passive_effect name="KickDegreesVertical" operation="base_set" value="-0.05, 0.05"/>
+			<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-0.05, 0.05"/>
+			<display_value name="dRecoil" value="0" />
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+		<!-- Default
 			<passive_effect name="KickDegreesVertical" operation="base_set" value="-0.35,0.35"/>
 			<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-0.35,0.35"/>
 			<display_value name="dRecoil" value="1" />
 			<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
 			<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
 		-->
+		
+<!-- WIDER AUGER -->
+		<!--	Not sure on how to make a wider blade.. ideally this would be a much harder to aquire and would  eliminate roughly a 2x2 or 3x3 area centred on the crosshairs.
+			<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0.5"/>
+			<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0.5"/>	
+		-->
+
+
 		
 <!-- BETTER CONSTRUCTION/FRAME (reduces the degredation of the tool) -->
 		<!--
