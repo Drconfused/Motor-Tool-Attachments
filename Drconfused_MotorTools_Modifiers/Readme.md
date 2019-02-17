@@ -27,3 +27,7 @@ Version history
 		-modDiamondTip2 = 25% increased block damage but -100% damage to wood
 		-modDIamondTip3 = 50% increased block damage but -100% damage to wood
 		
+	0.03
+		adding in Better Handles to reduce kickback/recoil
+		added in an icon for the augerblade mods (*my original icon feel free to use it as you wish)
+		
