@@ -31,3 +31,9 @@ Version history
 		adding in Better Handles to reduce kickback/recoil
 		added in an icon for the augerblade mods (*my original icon feel free to use it as you wish)
 		
+	0.04
+		adding in icons for	
+			-Engine Turbo mods
+			-Gas Tank mods
+			-Better Handles 
+			
