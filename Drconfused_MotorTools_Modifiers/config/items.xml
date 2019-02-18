@@ -93,6 +93,12 @@
 		<property name="EconomicValue" value="500"/>
 	</item>	
 	
+<!-- MOTOR TOOL SILENCER -->
+	<item name="modMotorToolSilencerSchematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>			
+	
 </append>		
 
 </config>
