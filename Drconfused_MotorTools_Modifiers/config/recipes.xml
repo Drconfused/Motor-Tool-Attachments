@@ -127,7 +127,15 @@
 		<ingredient name="resourceSpring" count="8"/>
 	</recipe>	
 
+<!-- MOTOR TOOL SILENCER 	-->
 
+	<recipe name="modMotorToolSilencer" counts="1" craft_area="workbench">
+		<!-- <ingredient name="modBetterHandles3" count="1"/> -->
+		<ingredient name="resourceSpring" count="8"/>
+		<ingredient name="resourceForgedSteel" count="8"/>
+		<ingredient name="resourceMechanicalParts" count="8"/>
+		<ingredient name="resourceCropCottonPlant" count="20"/>
+	</recipe>	
 <!-- 	:)	-->
 
 
