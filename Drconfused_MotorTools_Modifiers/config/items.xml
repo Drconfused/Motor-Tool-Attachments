@@ -1,27 +1,22 @@
 <config>
 <!-- Adding attachments to the auger and chainsaw as motorTools -->
-
 <!-- Need to add new tag to chainsaw and auger possibly to impact wrench and nail gun -->
 
 <append xpath="/items/item[@name='meleeToolAuger']/property[@name='Tags']/@value">,motorTools1,gasTank1,motorToolReach,diamondBlade1</append>
 
 <append xpath="/items/item[@name='meleeToolChainsaw']/property[@name='Tags']/@value">,motorTools1,gasTank1,motorToolReach</append>
-
 	
 <!-- Auger and Chainsaw schematics and attachments -->
-
 <!-- ENGINE TURBO -->
 <append xpath="/items">
 	<item name="modEngineTurbo1Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="250"/>
 	</item>
-
 	<item name="modEngineTurbo2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>
-	
 	<item name="modEngineTurbo3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="750"/>
@@ -32,28 +27,38 @@
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>
-
 	<item name="modGasTank2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>
-
 	<item name="modGasTank3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>
 
+<!-- 	RESERVE GAS TANK	-->
+	<item name="modReserveGasTank1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	<item name="modReserveGasTank2Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	<item name="modReserveGasTank3Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	
 <!-- BLADE EXTENSION -->	
 	<item name="modMotorToolExtension1Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>	
-
 	<item name="modMotorToolExtension2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>		
-
 	<item name="modMotorToolExtension3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
@@ -64,30 +69,25 @@
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>	
-
 	<item name="modDiamondTip2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>		
-
 	<item name="modDiamondTip3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>	
 
 <!-- BETTER HANDLES -->
-
-<!-- removing 2 entries till I know its worth having them in 
+	<!-- removing 2 entries till I know its worth having them in 
 	<item name="modBetterHandles1Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
 	</item>	
-	
 	<item name="modBetterHandles2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
-	</item>	
--->
+	</item>	-->
 	<item name="modBetterHandlesSchematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
@@ -97,8 +97,22 @@
 	<item name="modMotorToolSilencerSchematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="500"/>
-	</item>			
+	</item>	
 	
+<!-- CHAINSAW TEMPERED FRAME -->
+	<item name="modChainsawTemperedFrame1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>		
+	<item name="modChainsawTemperedFrame2Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+	<item name="modChainsawTemperedFrame3Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+
 </append>		
 
 </config>
