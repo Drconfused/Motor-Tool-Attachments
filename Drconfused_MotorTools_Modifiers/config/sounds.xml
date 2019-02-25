@@ -1,7 +1,6 @@
-
-<config>
+<Drconfused_MotorTools_Upgrade>
 <!-- This need to override SoundDataNode name="Auger_Fire_Start" when the mod is equipped -->
-<append xpath="/sounds">
+<append xpath="/Sounds">
 
 	<SoundDataNode name="Auger_s_Fire"> <AudioSource name="Sounds/Weapons/Motorized/Auger/AugerAudioSource"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 		<Noise ID="4" range="5" volume="30" time="2" heat_map_strength="0.001" heat_map_time="10"/>
@@ -30,4 +29,4 @@
 	</SoundDataNode>
 	
 </append>
-</config>
+</Drconfused_MotorTools_Upgrade>

@@ -1,5 +1,4 @@
-
-<config>
+<Drconfused_MotorTools_Upgrade>
 
 <append xpath="/item_modifiers">
 
@@ -129,7 +128,7 @@
 	</item_modifier>	
 
 <!-- DIAMOND TIP increases damage AUGER -->
-	<item_modifier name="modDiamondTip1" installable_tags="diamondBlade1" modifier_tags="shaft" type="attachment" rarity="0.5">
+	<item_modifier name="modDiamondTip1" installable_tags="diamondBlade1" modifier_tags="shafttip" type="attachment" rarity="0.5">
 		<property name="CustomIcon" value="DrsAugerBlade1"/>
 		<property name="CustomIconTint" value="5C797F"/>
 		<property name="Stacknumber" value="1"/>
@@ -142,7 +141,7 @@
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>	
 
-	<item_modifier name="modDiamondTip2" installable_tags="diamondBlade1" modifier_tags="shaft" type="attachment" rarity="0.5">
+	<item_modifier name="modDiamondTip2" installable_tags="diamondBlade1" modifier_tags="shafttip" type="attachment" rarity="0.5">
 		<property name="CustomIcon" value="DrsAugerBlade1"/>
 		<property name="CustomIconTint" value="7C9398"/>
 		<property name="Stacknumber" value="1"/>
@@ -155,7 +154,7 @@
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>	
 	
-	<item_modifier name="modDiamondTip3" installable_tags="diamondBlade1" modifier_tags="shaft" type="attachment" rarity="0.5">
+	<item_modifier name="modDiamondTip3" installable_tags="diamondBlade1" modifier_tags="shafttip" type="attachment" rarity="0.5">
 		<property name="CustomIcon" value="DrsAugerBlade1"/>
 		<property name="CustomIconTint" value="b9f2ff"/>
 		<property name="Stacknumber" value="1"/>
@@ -305,5 +304,12 @@
 		<!-- What holding value is the best for the typical push behind lawnmower? 
 				Can the ring of fire code be utilized to have a lawnmower effect by gathering any ground vegetation within its radius when the buff is active?
 		-->
+
+<!-- NAILGUN MODS -->
+	
+
+-->
+	
+	
 </append>
-</config>
+</Drconfused_MotorTools_Upgrade>
