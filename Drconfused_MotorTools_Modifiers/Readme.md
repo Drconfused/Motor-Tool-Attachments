@@ -1,16 +1,23 @@
 Welcome to Drconfuseds madness!
-Version 0.06
+Version 0.08
 
+	Auger - Chainsaw - Nailgun - Power Tool Series
+	
+	
 Contents 
-* 	ATTACHMENTS
+* 	WHATS IN THE MOD?
 *	TO DO/WISH LIST
 *	VERSION HISTORY
 *	THANKYOUS
 *	MADNESS NOTES
 *	MODDERS NEED TO KNOW BASIS
 
-ATTACHMENTS
+WHATS IN THE MOD?
+1. Auger and Chainsaw now have have slots that = the tier of the item for 6 slots total at tier 6. (This does not update pre-existing items so you have to make or find one new)
 
+2. Adds in an upgrade to the Nailgun through the recipes called Quicker Fixer Upper
+
+3.Attachments for the auger and chainsaw 
 		-modEngineTurbo1 = 10% increase in speed
 		-modEngineTurbo2 = 25% increase in speed
 		-modEngineTurbo3 = 50% increase in speed
@@ -39,6 +46,9 @@ ATTACHMENTS
 			50% increase in degradation max and lower degradation per use
 		-modChainsawTemperedFrame3 = 
 			75% increase in degradation max and lower degradation per use
+
+4. All added into the recipes, progression tables and loot tables.
+
 			
 			
 TO DO/WISH LIST
@@ -48,18 +58,35 @@ TO DO/WISH LIST
 	4. Discover if a wider auger can be built and how those attributes work
 	5. Carbon Alloy Framing for the motortools to increase durability related values
 	6. Figure out how the tools affect the heatmap and if it can be separated from the sound values or if those are intrinsically linked. If it is separate and there is a heat specific value than a heat sink could be developed to soak up the heat rather than the Noise Dampner doing both.
+			this is inside of a torch item
+			<property name="HeatMapStrength" value="4.05"/>
+			<property name="HeatMapTime" value="1200"/>
 	7. Considering making a Reserve Fuel Tank attachment that would allow for a 2nd fuel tank attachment for even more fuel. 
-	8. Schematic icons built.
-	9. Recipes built/balanced and added into the progression tables.
+	8. Schematic icons built and schematics activated
+	9. Recipes built/balanced and added into the progression tables. Considering making unique recipe requirements so that engineering & science are both needed or finding loot to craft these items.
 	10. loot.xml additions so the added items can be distributed.
 	11. Nail gun additions
-	12. Impact Wrench additions if I can permission from Elucidus.
+	12. Impact Wrench additions if I can get permission from Elucidus.
 	13. Get a lawnmower icon in and see if something in hold position could be good candidate for a future model addition of a lawnmower.
-	14. take suggestions!
+	14. Make an sdx version and add a localization for better in game look.
 
 	
 	
 VERSION HISTORY
+	0.08
+		-made the 6th slot open up for a tier 6 chainsaw or auger
+		-made the blade extension and diamondtip blade able to be slotted at the same time.
+		-added items into loot tables
+		-activated schematics in recipes
+		-Started defining out resourceRefinedSilicon in the xml with future plans to add in new resources for the Power Series
+		-Added in an upgrade for the NailGun called the Quicker Fixer Upper, which increases the build speed of the NailGun (if you use any of the nail gun speed enhancements this one might be redundant)
+		
+	0.07
+		-Added schematic icons for all of the current icons in the mod.
+		-adapted some feedback by RussianDood after he test my mod out
+			corrected progression file to properly add them into progression.
+			corrected a case sensitive error in sounds.xml
+		
 	0.06
 		-added in Reserve Gas Tank with icon and tints that can stack with the other Gas Tank for those that prefer more gas over the other attachments. (Currently keeping both using a percentage increase rather than hard number, but may change that)
 		-added tint to the customicon in diamond blades
@@ -116,6 +143,10 @@ First and foremost JRBARRIO gets my deepest gratitude for some initial correspon
 Thank you Mayic/Jayic for getting me even more excited about adding to my mods and gaining deeper insights into the workings of xml and giving a great sense of community.
 
 Xajar because his flagstone frames are my most used block hands down, until I have enough resources and a good stupply of wet flagstone blocks or self upgrading steel or a crap ton of rebar frames.
+
+Stallionden, specifically your mining machine was a game changer for me was interacted with every moment I had. I couldn't just have one, but had to have 10 or so. It was a great addition for basebuilders and will surely be inspiration to future projects I help manifest.
+
+And of course a massive thankyou to the FunPimps for continuing to work on this game.
 
 
 		
