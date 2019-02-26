@@ -1,14 +1,14 @@
-Welcome to Drconfuseds madness!
-Version 0.08
+Welcome to Drconfused madness!
+
 
 	Auger - Chainsaw - Nailgun - Power Tool Series
-	
+				Current version 0.09
+				
 	
 Contents 
 * 	WHATS IN THE MOD?
 *	TO DO/WISH LIST
 *	VERSION HISTORY
-*	THANKYOUS
 *	MADNESS NOTES
 *	MODDERS NEED TO KNOW BASIS
 
@@ -73,6 +73,20 @@ TO DO/WISH LIST
 	
 	
 VERSION HISTORY
+	0.09
+		-Adapting corrections outlined by RussianDood
+			-corrected loot.xml 
+				-had modMelee1 when it should have been modMeleeT1
+					-same modMelee2 and 3
+				-now there should be more occurrences of the mods appearing in loot.
+			-added in items.xml
+				-description keys for the schematics
+			-RussianDood compiled a localization file for the mod.
+		-in loot.xml
+			adjusted economic values so there is more consistency
+				#1Schematics value 250
+				#2Schematics value 500
+				#3Schematics value 750
 	0.08
 		-made the 6th slot open up for a tier 6 chainsaw or auger
 		-made the blade extension and diamondtip blade able to be slotted at the same time.
@@ -136,18 +150,6 @@ VERSION HISTORY
 		 - modMotorToolExtension - a 50% increase in range when installed into either the chainsaw or auger.
 		 
 
-THANKYOUS
-
-First and foremost JRBARRIO gets my deepest gratitude for some initial correspondence between him and I on his headshots/dismemberment mod was my initial deeper looking into the xml and its different attributes and I have only got deeper in since.
-
-Thank you Mayic/Jayic for getting me even more excited about adding to my mods and gaining deeper insights into the workings of xml and giving a great sense of community.
-
-Xajar because his flagstone frames are my most used block hands down, until I have enough resources and a good stupply of wet flagstone blocks or self upgrading steel or a crap ton of rebar frames.
-
-Stallionden, specifically your mining machine was a game changer for me was interacted with every moment I had. I couldn't just have one, but had to have 10 or so. It was a great addition for basebuilders and will surely be inspiration to future projects I help manifest.
-
-And of course a massive thankyou to the FunPimps for continuing to work on this game.
-
 
 		
 
@@ -184,7 +186,8 @@ MADNESS NOTES
 MODDERS NEED TO KNOW BASIS
 
 console commands for mod testing and related values
-	exportcurrentconfigs
+		exportcurrentconfigs - 
+			enter into the console in game and a file will compiled that contains all the config changes that are loaded and from what mod. It will tell you the path
 
 
 

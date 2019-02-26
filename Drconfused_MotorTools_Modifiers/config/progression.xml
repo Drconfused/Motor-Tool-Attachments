@@ -1,5 +1,5 @@
 <Drconfused_MotorTools_Upgrade>
-<!-- need to add in the following
+<!-- adds in the following
 		modBetterHandles
 		modEngineTurbo	1,2,3
 		modGasTank 1,2,3
@@ -7,7 +7,7 @@
 		modDiamondTip 1,2,3
 		modMotorToolSilencer		
 -->
-<!-- Science -->
+<!--  Science Progression  -->
 	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5"
 			tags="modBetterHandles,modDiamondTip1,modMotorToolExtension1,modGasTank1"/>
@@ -18,10 +18,9 @@
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5"
 			tags="modMotorToolSilencer,modDiamondTip3,modMotorToolExtension3,modGasTank3,modEngineTurbo3,modReserveGasTank3,modChainsawTemperedFrame3,Quicker Fixer Upper"/>
 	</append>
-	<!-- Engineering 
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='2,5']/@tags">,modBetterHandles,modDiamondTip1,modMotorToolExtension1,modGasTank1</append>
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='5']/@tags">,modMotorToolSilencer,modDiamondTip3,modMotorToolExtension3,modGasTank3,modEngineTurbo3,modReserveGasTank</append>
-	-->
+	
+<!-- Engineering Progression	-->
+
 
 
 </Drconfused_MotorTools_Upgrade>

@@ -24,16 +24,19 @@
 	<item name="modEngineTurbo1Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsTurboCharger_schematic"/>
+		<property name="DescriptionKey" value="schematicMaster3Desc"/>
 		<property name="EconomicValue" value="250"/>
 	</item>
 	<item name="modEngineTurbo2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsTurboCharger_schematic"/>
+		<property name="DescriptionKey" value="schematicMaster4Desc"/>
 		<property name="EconomicValue" value="500"/>
 	</item>
 	<item name="modEngineTurbo3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsTurboCharger_schematic"/>
+		<property name="DescriptionKey" value="schematicMaster5Desc"/>
 		<property name="EconomicValue" value="750"/>
 	</item>
 	
@@ -41,75 +44,87 @@
 	<item name="modGasTank1Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="JerryCans1_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster2Desc"/>
+		<property name="EconomicValue" value="250"/>
 	</item>
 	<item name="modGasTank2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="JerryCans1_schematic"/>
+		<property name="DescriptionKey" value="schematicMaster3Desc"/>
 		<property name="EconomicValue" value="500"/>
 	</item>
 	<item name="modGasTank3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="JerryCans1_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster5Desc"/>
+		<property name="EconomicValue" value="750"/>
 	</item>
 
 <!-- 	RESERVE GAS TANK	-->
 	<item name="modReserveGasTank1Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsReserveGasTank_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster3Desc"/>
+		<property name="EconomicValue" value="250"/>
 	</item>
 	<item name="modReserveGasTank2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsReserveGasTank_schematic"/>
+		<property name="DescriptionKey" value="schematicMaster4Desc"/>
 		<property name="EconomicValue" value="500"/>
 	</item>
 	<item name="modReserveGasTank3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsReserveGasTank_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster5Desc"/>
+		<property name="EconomicValue" value="750"/>
 	</item>
 	
 <!-- BLADE EXTENSION -->	
 	<item name="modMotorToolExtension1Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster2Desc"/>
+		<property name="EconomicValue" value="250"/>
 	</item>	
 	<item name="modMotorToolExtension2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
+		<property name="DescriptionKey" value="schematicMaster3Desc"/>
 		<property name="EconomicValue" value="500"/>
 	</item>		
 	<item name="modMotorToolExtension3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster5Desc"/>
+		<property name="EconomicValue" value="750"/>
 	</item>	
 	
 <!-- DIAMOND TIP AUGER -->
 	<item name="modDiamondTip1Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster2Desc"/>
+		<property name="EconomicValue" value="250"/>
 	</item>	
 	<item name="modDiamondTip2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
+		<property name="DescriptionKey" value="schematicMaster3Desc"/>
 		<property name="EconomicValue" value="500"/>
 	</item>		
 	<item name="modDiamondTip3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster5Desc"/>
+		<property name="EconomicValue" value="750"/>
 	</item>	
 
 <!-- BETTER HANDLES -->
 	<!-- removing 2 entries till I know its worth having them in 
 	<item name="modBetterHandles1Schematic">
 		<property name="Extends" value="schematicMaster"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="EconomicValue" value="250"/>
 	</item>	
 	<item name="modBetterHandles2Schematic">
 		<property name="Extends" value="schematicMaster"/>
@@ -118,6 +133,7 @@
 	<item name="modBetterHandlesSchematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsAugerHandles1_schematic"/>
+		<property name="DescriptionKey" value="schematicMaster2Desc"/>
 		<property name="EconomicValue" value="500"/>
 	</item>	
 	
@@ -125,46 +141,39 @@
 	<item name="modMotorToolSilencerSchematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsSoundDampnerField1_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster5Desc"/>
+		<property name="EconomicValue" value="750"/>
 	</item>	
 	
 <!-- CHAINSAW TEMPERED FRAME -->
 	<item name="modChainsawTemperedFrame1Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsChainsawBody1_schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster3Desc"/>
+		<property name="EconomicValue" value="250"/>
 	</item>		
 	<item name="modChainsawTemperedFrame2Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsChainsawBody1_schematic"/>
+		<property name="DescriptionKey" value="schematicMaster4Desc"/>
 		<property name="EconomicValue" value="500"/>
 	</item>	
 	<item name="modChainsawTemperedFrame3Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsChainsawBody1_schematic"/>
 		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster5Desc"/>
 	</item>	
-	
+
+<!-- Quicker Fixer Upper -->	
 	<item name="Quicker Fixer Upper Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CustomIcon" value="DrsQuickerFixerUpper_Schematic"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="DescriptionKey" value="schematicMaster5Desc"/>
+		<property name="EconomicValue" value="750"/>
 	</item>	
 
-<!-- 
-	<item name="resourceRefinedSilicon">
-		<property name="HoldType" value="45"/>
-		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
-		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-		<property name="Material" value="MresourceScrapPolymers"/>
-		<property name="Weight" value="1"/>
-		<property name="Stacknumber" value="1000"/>
-		<property name="EconomicValue" value="16"/>
-		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
-		<property name="CraftingIngredientTime" value="2"/>
-	</item>
--->
+
 <item name="Quicker Fixer Upper">
 	<property name="Tags" value="tool,nailgun,sideAttachments,selfLoading"/>
 	<property name="DisplayType" value="meleeRepairTool"/>
@@ -233,6 +242,21 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 	</effect_group>
 </item>	
+
+<!--  REFINED SILICONE for when its ready to be introduced 
+	<item name="resourceRefinedSilicon">
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="MresourceScrapPolymers"/>
+		<property name="Weight" value="1"/>
+		<property name="Stacknumber" value="1000"/>
+		<property name="EconomicValue" value="16"/>
+		<property name="Group" value="Resources"/>
+		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientTime" value="2"/>
+	</item>
+-->
 </append>		
 
 </Drconfused_MotorTools_Upgrade>

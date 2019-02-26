@@ -49,7 +49,7 @@
 		<item name="Quicker Fixer Upper Schematic"/>
 </append>
 
-<append xpath="/lootcontainers/lootgroup[@name='modMelee1']">
+<append xpath="/lootcontainers/lootgroup[@name='modMeleeT1']">
 
 		<item name="modReserveGasTank1"/>
 		<item name="modGasTank1"/>
@@ -59,7 +59,7 @@
 		<item name="modChainsawTemperedFrame1"/>
 </append>	
 
-<append xpath="/lootcontainers/lootgroup[@name='modMelee2']">	
+<append xpath="/lootcontainers/lootgroup[@name='modMeleeT2']">	
 		<item name="modEngineTurbo2"/>
 		<item name="modGasTank2"/>		
 		<item name="modReserveGasTank2"/>		
@@ -70,7 +70,7 @@
 		<item name="modChainsawTemperedFrame2"/>
 </append>
 
-<append xpath="/lootcontainers/lootgroup[@name='modMelee3']">
+<append xpath="/lootcontainers/lootgroup[@name='modMeleeT3']">
 
 		<item name="modEngineTurbo3"/>
 		<item name="modGasTank3"/>
@@ -82,15 +82,17 @@
 
 
 <!-- garage stuff, tools, etc -->
+
 <append xpath="/lootcontainers/lootcontainer[@id='22']">
 	<item group="modMotorToolStuff" count="1" prob="0.005"/>
 </append> 
 		
 <!-- construction supplies shipping crate -->	
+<!--  THIS MIGHT BE TOSSING AN ERROR?
 <append xpath="/lootcontainers/lootcontainer[@id='88']">
 	<item group="modMotorToolStuff" count="1" prob="0.01"/>
 </append>	
-
+-->
 <!-- cntCollapsedWorkbench -->
 <append xpath="/lootcontainers/lootcontainer[@id='92']">
 	<item group="modMotorToolStuff" count="1" prob="0.01"/>
