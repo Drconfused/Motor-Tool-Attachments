@@ -1,8 +1,9 @@
 Welcome to Drconfused madness!
 
+	Power Series 2 - The Tools of Power
 
-	Auger - Chainsaw - Nailgun - Power Tool Series
-				Current version 0.09
+	Auger - Chainsaw - Nailgun - Impact Wrench
+				Current version 0.10
 				
 	
 Contents 
@@ -10,14 +11,14 @@ Contents
 *	TO DO/WISH LIST
 *	VERSION HISTORY
 *	MADNESS NOTES
-*	MODDERS NEED TO KNOW BASIS
+*	CREDITS
 
 WHATS IN THE MOD?
-1. Auger and Chainsaw now have have slots that = the tier of the item for 6 slots total at tier 6. (This does not update pre-existing items so you have to make or find one new)
+	1. Auger and Chainsaw now have have more slots. 8 slots total at tier 6. (This does not update pre-existing items so you have to make or find one new)
 
-2. Adds in an upgrade to the Nailgun through the recipes called Quicker Fixer Upper
+	2. Adds in an upgrade to the Nailgun through the recipes called Quicker Fixer Upper
 
-3.Attachments for the auger and chainsaw 
+	3.Attachments for the auger and chainsaw 
 		-modEngineTurbo1 = 10% increase in speed
 		-modEngineTurbo2 = 25% increase in speed
 		-modEngineTurbo3 = 50% increase in speed
@@ -47,7 +48,9 @@ WHATS IN THE MOD?
 		-modChainsawTemperedFrame3 = 
 			75% increase in degradation max and lower degradation per use
 
-4. All added into the recipes, progression tables and loot tables.
+	4. All added into the recipes, progression tables and loot tables.
+	
+	5. Adds in Elucidus Impact Wrench 
 
 			
 			
@@ -69,10 +72,17 @@ TO DO/WISH LIST
 	12. Impact Wrench additions if I can get permission from Elucidus.
 	13. Get a lawnmower icon in and see if something in hold position could be good candidate for a future model addition of a lawnmower.
 	14. Make an sdx version and add a localization for better in game look.
-
-	
+	15. See if a item_modification can increase harvestcount from harvesting blocks, almost like an added motherlode attribute.
+			<passive_effect name="HarvestCount" operation="perc_add" value=".2,1" level="1,5" tags="oreWoodHarvest"/>
 	
 VERSION HISTORY
+
+		
+	0.10
+		-Name change 
+		-Added in Elucidus mod Impact Wrench
+		-Added extra slots to the Auger and Chainsaw 
+		
 	0.09
 		-Adapting corrections outlined by RussianDood
 			-corrected loot.xml 
@@ -183,11 +193,13 @@ MADNESS NOTES
 			If you put a recipe into 2 different perks you only need one of those perks meeting the requirement to unlock the recipe. I think the way around that would be to make the recipe require 2 or more items that can only be crafted by the specific perks, this way that recipe in theory requires the extra perks for it to be crafted. Or it has to be a team effort, or if the items are in the loot tables then it has to be found.
 	
 	
-MODDERS NEED TO KNOW BASIS
+CREDITS
 
-console commands for mod testing and related values
-		exportcurrentconfigs - 
-			enter into the console in game and a file will compiled that contains all the config changes that are loaded and from what mod. It will tell you the path
+	Impact Wrench - Elucidus gave permission to use and modify as I see fit. It is very appreciated!! 
+		https://www.nexusmods.com/7daystodie/mods/173
+		
+	
+
 
 
 

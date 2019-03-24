@@ -20,7 +20,9 @@
 	</append>
 	
 <!-- Engineering Progression	-->
-
-
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5"
+			tags="Impact Wrench"/>
+	</append>
 
 </Drconfused_MotorTools_Upgrade>
